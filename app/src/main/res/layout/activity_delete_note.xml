@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".DeleteNoteActivity">
 
     <TextView
-        android:id="@+id/myNotes_textView"
+        android:id="@+id/selectNoteToRemove_textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/my_notes"
+        android:text="@string/select_the_note_to_remove"
         android:textAlignment="center"
         android:textSize="36sp"
         android:textStyle="bold|italic"
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myNotes_textView"
+        app:layout_constraintTop_toBottomOf="@+id/selectNoteToRemove_textView"
         android:background="#87CEFA"/>
 
     <TextView
@@ -39,8 +39,6 @@
         android:textStyle="italic"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myNotes_textView" />
-
-
+        app:layout_constraintTop_toBottomOf="@+id/selectNoteToRemove_textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
